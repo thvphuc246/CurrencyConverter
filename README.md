@@ -23,13 +23,14 @@ public class Constants {
 - The application should work at the address `http://localhost:8080/`.
 
 ## Testing
-### Front-end side
+### Front-end
 Locate to `http://localhost:8080/convert` or click on the **Convert** button from the index page to test.
 
-### Back-end side
+### Back-end
 Test at the address `http://localhost:8080/convert` with the following parameters:
 - `"source"`: The base currency ("USD", "EUR", etc.)
 - `"target"`: The desired currency
 - `"amount"`: The money amount for conversion
 The result should show at the field `"convertedValue"`.
+
 *Example*: Get `http://localhost:8080/convert?source=EUR&target=USD&amount=10` to convert 10EUR to USD.
